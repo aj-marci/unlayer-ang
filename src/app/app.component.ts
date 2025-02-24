@@ -11,13 +11,10 @@ export class AppComponent {
   title = 'angular-email-editor';
   projectId = 239206;
   editorOptions = {
-    displayMode: 'email',
-    mergeTags: {
-      appearance: {
+    displayMode: "email",
+    appearance: {
         theme: "modern_dark",
       },
-    },
-    // Add more options as needed
   };
 
   @ViewChild(EmailEditorComponent)
