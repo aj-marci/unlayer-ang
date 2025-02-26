@@ -9,7 +9,7 @@ import { EmailEditorComponent, EmailEditorModule } from 'angular-email-editor';
 })
 export class AppComponent implements AfterViewInit {
   title = 'angular-email-editor';
-  projectId = 239206;
+  projectId = 1234; // replace with your projectId
   editorOptions: EmailEditorComponent['options'] = {
     displayMode: "email",
     appearance: {
